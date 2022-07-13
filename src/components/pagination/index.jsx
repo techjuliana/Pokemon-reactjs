@@ -8,7 +8,7 @@ export default function Navbar(props) {
         <Container>
         <div className="pagination-container">
             <button onClick={onLeftClick}><div>◀️</div></button>
-            <div>{page} de {totalPages}</div>
+            <div>{page} / {totalPages}</div>
             <button onClick={onRightClick}><div>▶️</div></button>
         </div>
         </Container>
