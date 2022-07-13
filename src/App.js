@@ -4,7 +4,7 @@ import { getPokemonData, getPokemons, searchPokemon } from "./api";
 import Navbar from "./components/navbar";
 import Searchbar from "./components/searchbar";
 import Pokedex from "./components/pokedex";
-import { FavoriteProvider } from "./components/contexts/favoritesContext";
+import { FavoriteProvider } from "./contexts/favoritesContext";
 
 const favoritesKey = "f"
 function App() {

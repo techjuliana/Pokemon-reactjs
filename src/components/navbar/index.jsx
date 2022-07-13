@@ -1,5 +1,5 @@
 import React, { useContext } from "react";
-import FavoriteContext from "../contexts/favoritesContext";
+import FavoriteContext from "../../contexts/favoritesContext";
 import { Container } from "./styled";
 
 export default function Navbar() {
