@@ -1,7 +1,9 @@
 import React, {useContext} from "react";
 import FavoriteContext from "../contexts/favoritesContext";
+import {Container} from "./styled";
 
-const Pokemon = (props) => {
+export default function Pokemon(props) {
+// const Pokemon = (props) => {
     const {favoritePokemons, updateFavoritePokemons} = useContext(FavoriteContext)
     const {pokemon} = props;
     const onHeartClick = () => {
@@ -9,6 +11,8 @@ const Pokemon = (props) => {
     }
     const heart = favoritePokemons.includes(pokemon.name) ? "❤️" : "🖤";
     return (
+
+        <Container>
     <div className="pokemon-card">
         <div className="pokemon-image-container">
             <img alt={pokemon.name} src={pokemon.sprites.front_default} className="pokemon-image"/>
@@ -31,7 +35,7 @@ const Pokemon = (props) => {
                 </button>
             </div>
         </div>
-    </div>)
+    </div>
+    </Container>
+    )
 }
-
-export default Pokemon;

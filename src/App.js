@@ -102,3 +102,5 @@ const loadFavoritePokemons = () => {
     </FavoriteProvider>
   );
 }
+
+export default App;

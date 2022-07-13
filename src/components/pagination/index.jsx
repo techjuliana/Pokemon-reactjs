@@ -1,14 +1,16 @@
 import React from "react";
+import { Container } from "./styled";
 
-const Pagination = (props) => {
+export default function Navbar(props) {
+// const Pagination = (props) => {
     const {page, totalPages, onLeftClick, onRightClick} = props
     return (
+        <Container>
         <div className="pagination-container">
             <button onClick={onLeftClick}><div>◀️</div></button>
             <div>{page} de {totalPages}</div>
             <button onClick={onRightClick}><div>▶️</div></button>
         </div>
+        </Container>
     )
 }
-
-export default Pagination;
