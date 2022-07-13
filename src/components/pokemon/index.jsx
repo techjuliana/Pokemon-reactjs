@@ -9,7 +9,7 @@ export default function Pokemon(props) {
     const onHeartClick = () => {
         updateFavoritePokemons(pokemon.name)
     }
-    const heart = favoritePokemons.includes(pokemon.name) ? "❤️" : "🖤";
+    const heart = favoritePokemons.includes(pokemon.name) ? "❤️" : "💙";
     return (
 
         <Container>
