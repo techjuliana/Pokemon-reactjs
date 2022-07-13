@@ -15,7 +15,7 @@ export default function Searchbar(props) {
   const onButtonClickHandler = () => {
     onSearch(search);
   };
-  
+
   return (
     <Container>
       <div className="input-pokemon">
