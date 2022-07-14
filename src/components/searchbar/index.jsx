@@ -3,7 +3,7 @@ import { Container } from "./styled";
 import { useState } from "react";
 
 export default function Searchbar(props) {
-  const [search, setSearch] = useState("dito");
+  const [search, setSearch] = useState("");
   const { onSearch } = props;
   const onChangeHandler = (e) => {
     setSearch(e.target.value);
