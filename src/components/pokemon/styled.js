@@ -6,16 +6,13 @@ export const Container = styled.div`
   font-weight: 400;
   font-size: 16px;
   line-height: 20px;
-
-  display: flex;
-  flex-direction: column;
-  justify-content: space-between;
+  
   flex:1;
   border-radius: 10px;
   background-color: #87cefa;
 
   button {
-    flex-direction: row;
+    flex-direction: column;
     margin: 10px;
     background-color: #0e6f9f;
     padding: 5px 5px;
@@ -36,18 +33,22 @@ export const Container = styled.div`
     flex-direction: row;
     justify-content: space-between;
     align-items: center;
+    margin-right:2rem;
   }
 
-  div.card-top h1 {
+  div.card-top h3 {
     text-transform: capitalize;
   }
 
   div.pokemon-type-text {
-    margin-right: 10px;
-    background-color: yellow;
-    padding: 5px 10px;
+    margin: 10px;
+    background-color: #0e6f9f;
+    padding: 5px 5px;
     border: none;
     border-radius: 10px;
+    color: white;
+    cursor: pointer;
+    text-transform: capitalize;
   }
 
   div.card-botton {

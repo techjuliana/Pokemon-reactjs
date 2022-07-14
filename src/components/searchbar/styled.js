@@ -14,7 +14,7 @@ export const Container = styled.div`
   line-height: 20px;
   
   input {
-  padding: 12px;
+  padding: 10px;
   border-radius: 2px;
   border: 1px solid #e5e5e5;
   border-radius: 10px;
