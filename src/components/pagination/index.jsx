@@ -5,11 +5,11 @@ export default function Pagination(props) {
   const { page, totalPages, onLeftClick, onRightClick } = props;
   return (
     <Container>
-        <button onClick={onLeftClick}>◀</button>
-        <div>
-          {page} / {totalPages}
-        </div>
-        <button onClick={onRightClick}>▶</button>
+      <button onClick={onLeftClick}>◀</button>
+      <div>
+        {page} / {totalPages}
+      </div>
+      <button onClick={onRightClick}>▶</button>
     </Container>
   );
 }

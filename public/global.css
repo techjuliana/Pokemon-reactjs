@@ -1,15 +1,16 @@
 :root {
   --white: #ffffff;
   --white-200: #e5e5e5;
-  --grey: #7e7e7e;
   --black: #000000;
+  --blue: #87cefa
+  --blue-200:#0e6f9f;
 }
 
 h1 {
   display: flex;
   justify-content: center;
   align-items: center;
-  color: white;
+  color: var(--white);
   font-family: "Mulish";
   font-style: normal;
   font-weight: 400;

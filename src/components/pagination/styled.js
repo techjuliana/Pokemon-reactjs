@@ -6,7 +6,7 @@ export const Container = styled.div`
   justify-content: space-around;
   padding: 2rem 0;
   align-items: center;
-  color: white;
+  color: var(--white);
 
   button {
     background-color: #0e6f9f;

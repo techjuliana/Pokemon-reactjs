@@ -1,6 +1,5 @@
-import React from "react";
+import React, { useState } from "react";
 import { Container } from "./styled";
-import { useState } from "react";
 
 export default function Searchbar(props) {
   const [search, setSearch] = useState("");

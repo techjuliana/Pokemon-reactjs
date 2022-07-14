@@ -13,7 +13,7 @@ export const Container = styled.div`
     justify-content: center;
     align-items: center;
     font-size: 22px;
-    color: white;
+    color: var(--white);
   }
 
   div.pokedex-grid {

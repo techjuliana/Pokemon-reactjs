@@ -2,7 +2,6 @@ import styled from "styled-components";
 
 export const Container = styled.div`
   padding: 1rem;
-  background-color: black;
   flex-direction: column;
   justify-content: space-around;
   

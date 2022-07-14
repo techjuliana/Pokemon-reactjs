@@ -14,9 +14,9 @@ export const Container = styled.div`
   line-height: 20px;
   
   input {
-  padding: 10px;
+  padding: 11px;
   border-radius: 2px;
-  border: 1px solid #e5e5e5;
+  border: 1px solid var(--white-200);
   border-radius: 10px;
   background-color: var(--white);
   cursor: pointer;
@@ -27,7 +27,7 @@ button {
   border: none;
   border-radius:10px;
   height: 40px;
-  color: white;
+  color: var(--white);
   padding: 10px 12px;
   margin-left:12px;
   cursor: pointer;

@@ -18,7 +18,7 @@ export const Container = styled.div`
     padding: 5px 5px;
     border: none;
     border-radius: 10px;
-    color: white;
+    color: var(--white);
     cursor: pointer;
   }
 
@@ -46,7 +46,7 @@ export const Container = styled.div`
     padding: 5px 5px;
     border: none;
     border-radius: 10px;
-    color: white;
+    color: var(--white);
     cursor: pointer;
     text-transform: capitalize;
   }
