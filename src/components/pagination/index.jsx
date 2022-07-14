@@ -1,7 +1,7 @@
 import React from "react";
 import { Container } from "./styled";
 
-export default function Navbar(props) {
+export default function Pagination(props) {
   const { page, totalPages, onLeftClick, onRightClick } = props;
   return (
     <Container>

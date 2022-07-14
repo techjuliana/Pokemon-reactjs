@@ -44,7 +44,7 @@ const loadFavoritePokemons = () => {
   }, []);
 
   useEffect(() => {
-    fetchPokemons();
+    fetchPokemons()
   }, [page]);
 
   const updateFavoritePokemons = (name) => {
@@ -89,7 +89,9 @@ const loadFavoritePokemons = () => {
         <Navbar />
         <Searchbar onSearch={onSearchHandler}/>
        {notFound ? (
-        <div className="not-found-text" > Não achamos esse Pokemon :\ </div>
+        <h1>
+        Não achamos esse Pokemon :\
+        </h1>
        ) :
        ( <Pokedex
        pokemons={pokemons}

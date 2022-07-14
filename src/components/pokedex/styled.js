@@ -12,12 +12,12 @@ export const Container = styled.div`
     display: flex;
     justify-content: center;
     align-items: center;
+    font-size: 22px;
+    color: white;
   }
 
   div.pokedex-grid {
     display: flex;
-    justify-content: center;
-    align-items: center;
     display: grid;
     gap: 10px;
     grid-template-columns: repeat(3, 1fr);

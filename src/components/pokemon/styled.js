@@ -6,14 +6,16 @@ export const Container = styled.div`
   font-weight: 400;
   font-size: 16px;
   line-height: 20px;
+
   display: flex;
   flex-direction: column;
   justify-content: space-between;
-  margin: 2px;
+  flex:1;
   border-radius: 10px;
   background-color: #87cefa;
 
   button {
+    flex-direction: row;
     margin: 10px;
     background-color: #0e6f9f;
     padding: 5px 5px;
@@ -26,12 +28,13 @@ export const Container = styled.div`
   div.image-pokemon {
     width: 70px;
     height: 70px;
+    margin-right:10px;
   }
 
   div.card-top {
     display: flex;
     flex-direction: row;
-    justify-content: space-evenly;
+    justify-content: space-between;
     align-items: center;
   }
 
@@ -40,9 +43,8 @@ export const Container = styled.div`
   }
 
   div.pokemon-type-text {
-    flex-direction: row;
-    margin-left: 2px;
-    background-color: orange;
+    margin-right: 10px;
+    background-color: yellow;
     padding: 5px 10px;
     border: none;
     border-radius: 10px;

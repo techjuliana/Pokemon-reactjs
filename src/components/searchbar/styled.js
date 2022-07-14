@@ -17,7 +17,7 @@ export const Container = styled.div`
   padding: 12px;
   border-radius: 2px;
   border: 1px solid #e5e5e5;
-  border-radius: 4px;
+  border-radius: 10px;
   background-color: var(--white);
   cursor: pointer;
 }

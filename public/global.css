@@ -5,6 +5,18 @@
   --black: #000000;
 }
 
+h1 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  font-family: "Mulish";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 22px;
+  line-height: 20px;
+}
+
 * {
   margin: 0;
   padding: 0;
@@ -18,3 +30,4 @@ body {
 a {
   text-decoration: none;
 }
+
