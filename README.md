@@ -14,8 +14,9 @@ Você pode abrir o website através do link abaixo.
 <!-- `https://techpokemon.netlify.app/` -->
 
  
-## Tech Juliana
+
 ---
+## Tech Juliana
 
 <a href="https://www.linkedin.com/in/techjuliana">
  <!-- <img style="border-radius: 50%;" src="" width="100px;" alt=""/> -->
