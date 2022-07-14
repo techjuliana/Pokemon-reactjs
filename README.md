@@ -1,10 +1,10 @@
 <h1 align="center">
- Aplicação Pokemon + API + React.JS 
+ Aplicação Pokemon + API, React hooks, useState, useContext, localStorage.
 </h1>
 
 ## Tech
 
-Algumas das tecnologias utilizadas foram: React, Styled components, API.
+React JS e Styled components
 
 ## 🔔 Started
 
