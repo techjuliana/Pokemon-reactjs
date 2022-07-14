@@ -1,8 +1,8 @@
 import styled from "styled-components";
 
 export const Container = styled.div`
-  padding: 2px;
-  background-color: #0e6f9f;
+  padding: 1rem;
+  background-color: black;
   flex-direction: column;
   justify-content: space-around;
   
@@ -13,6 +13,6 @@ export const Container = styled.div`
   font-family: "Mulish";
   font-style: normal;
   font-weight: 400;
-  font-size: 16px;
+  font-size: 17px;
   line-height: 20px;
 ` 
