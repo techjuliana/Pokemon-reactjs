@@ -2,10 +2,19 @@
   --white: #ffffff;
   --white-200: #e5e5e5;
   --grey: #7e7e7e;
+  --black: #000000;
 }
 
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+}
+
+body {
+  background: var(--black);
+}
+
+a {
+  text-decoration: none;
 }

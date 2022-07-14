@@ -1,16 +1,16 @@
 import React from "react";
 import { Container } from "./styled";
-import { useState} from "react";
+import { useState } from "react";
 
 export default function Searchbar(props) {
   const [search, setSearch] = useState("dito");
-  const {onSearch} = props;
+  const { onSearch } = props;
   const onChangeHandler = (e) => {
-    setSearch(e.target.value)
-    if(e.target.value.length ===0){
-      onSearch(undefined)
+    setSearch(e.target.value);
+    if (e.target.value.length === 0) {
+      onSearch(undefined);
     }
-  }
+  };
 
   const onButtonClickHandler = () => {
     onSearch(search);

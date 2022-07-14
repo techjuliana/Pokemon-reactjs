@@ -1,6 +1,6 @@
 import styled from "styled-components";
 
-export const Container = styled.div`  
+export const Container = styled.div`
   font-family: "Mulish";
   font-style: normal;
   font-weight: 400;
@@ -8,11 +8,9 @@ export const Container = styled.div`
   line-height: 20px;
   display: flex;
   flex-direction: column;
-
   justify-content: space-between;
   margin: 2px;
-  box-shadow: 4px 4px 4px (0, 0, 0, 0.25);
-  border-radius: 5px;
+  border-radius: 10px;
   background-color: #87cefa;
 
   button {
@@ -42,9 +40,10 @@ export const Container = styled.div`
   }
 
   div.pokemon-type-text {
-    margin-left: 10px;
+    flex-direction: row;
+    margin-left: 2px;
     background-color: orange;
-    padding: 5px 20px;
+    padding: 5px 10px;
     border: none;
     border-radius: 10px;
   }
