@@ -1,17 +1,17 @@
 <h1 align="center">
- Aplicação Pokemon + API + React.JS
+ Aplicação Pokemon + API + React.JS 
 </h1>
 
-## Technologies
+## Tech
 
 Algumas das tecnologias utilizadas foram: React, Styled components, API.
 
-## 🔔 Getting started
+## 🔔 Started
 
 Você pode abrir o website através do link abaixo.
 
-<a href="https://techjuliana.github.io/batman-css/" target="" alt="">Clique aqui</a>
-<!-- `https://techjuliana.github.io/batman-css/` -->
+<a href="https://techpokemon.netlify.app/" target="" alt="">Clique aqui</a>
+<!-- `https://techpokemon.netlify.app/` -->
 
  
 ## Tech Juliana
