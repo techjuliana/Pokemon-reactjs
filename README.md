@@ -8,10 +8,10 @@ React JS e Styled components
 
 ## 🔔 Started
 
-Você pode abrir o website através do link abaixo.
+Você pode ver o projeto através do link abaixo.
 
-<a href="https://techpokemon.netlify.app/" target="" alt="">Clique aqui</a>
-<!-- `https://techpokemon.netlify.app/` -->
+<a href="https://youtu.be/SJTt4Yx-Sdk" target="" alt="">Clique aqui</a>
+<!-- `https://youtu.be/SJTt4Yx-Sdk` -->
 
  
 
