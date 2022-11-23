@@ -1,10 +1,12 @@
 <h1 align="center">
- Aplicação Pokemon + API, React hooks, useState, useContext, localStorage.
+ Aplicação Pokemon em ReactJS e Styled components + API, React hooks, useState, useContext, localStorage.
 </h1>
 
-## Tech
+<hr>
 
-React JS e Styled components
+### Projeto Design ⬇️
+![image](https://raw.githubusercontent.com/techjuliana/API-paises/main/design/Captura%20de%20ecr%C3%A3%202022-11-23%2C%20%C3%A0s%2011.32.05%20AM.png)
+
 
 ## 🔔 Started
 
